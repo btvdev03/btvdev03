@@ -1,37 +1,33 @@
-# Vo Tan Ban
+# Võ Tấn Bản
 
-**M.Sc. Student in Information Systems** · Thu Dau Mot University, Vietnam
+**Học viên Cao học ngành Hệ thống Thông tin** · Trường Đại học Thủ Dầu Một
 
-Focused on applied research in information systems, data-driven solutions, and intelligent automation.
+Định hướng nghiên cứu và phát triển các giải pháp hệ thống thông tin ứng dụng, phân tích dữ liệu và tự động hóa quy trình thông minh.
 
 ---
 
-### Research Interests
+### 🔬 Hướng nghiên cứu
 
-- Information Systems Design & Architecture
-- Data Analytics & Business Intelligence
-- AI/ML Applications in Information Systems
-- Process Automation & Optimization
+- **Thiết kế & Kiến trúc Hệ thống Thông tin** (Information Systems Architecture)
+- **Phân tích Dữ liệu & Business Intelligence** (Data Analytics & BI)
+- **Ứng dụng Trí tuệ Nhân tạo / Học máy** (Applied AI & Machine Learning)
+- **Tự động hóa & Tối ưu hóa Quy trình** (Process Automation & Optimization)
 
-### Technical Skills
+### 💻 Năng lực kỹ thuật
 
 ```text
-Languages        Python · Java · SQL · JavaScript
-Data & ML        Pandas · Scikit-learn · TensorFlow · Power BI
-Databases        PostgreSQL · MySQL · MongoDB
-DevOps           Git · Docker · Linux · CI/CD
-Frameworks       Flask · FastAPI · Spring Boot
+Ngôn ngữ lập trình   Python · Java · SQL · JavaScript
+Dữ liệu & AI/ML       Pandas · Scikit-learn · TensorFlow · Power BI
+Cơ sở dữ liệu        PostgreSQL · MySQL · MongoDB
+Hạ tầng & Công cụ    Git · Docker · Linux · CI/CD
+Frameworks           FastAPI · Flask · Spring Boot
 ```
 
-### Selected Projects
+### 📂 Dự án & Nghiên cứu
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [TrendRadar](https://github.com/btvdev03/TrendRadar) | AI-powered trend detection and monitoring system | Python · MCP · AI |
+> _Đang cập nhật các dự án nghiên cứu và công cụ mã nguồn mở phục vụ cộng đồng..._
 
-> _More projects coming soon — currently building tools for research and open-source contribution._
-
-### GitHub Activity
+### 📊 Hoạt động GitHub
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=btvdev03&show_icons=true&hide_title=true&hide_border=true&theme=github_dark&count_private=true&include_all_commits=true" />
@@ -41,4 +37,4 @@ Frameworks       Flask · FastAPI · Spring Boot
 
 ---
 
-<sub>📬 btv.dev03@gmail.com · 📍 Binh Duong, Vietnam</sub>
+<sub>📬 Liên hệ: btv.dev03@gmail.com · 📍 Bình Dương, Việt Nam</sub>
