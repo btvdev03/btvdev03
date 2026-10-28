@@ -1,4 +1,4 @@
-# Binh Thanh Vo
+# Vo Tan Ban
 
 **M.Sc. Student in Information Systems** · Thu Dau Mot University, Vietnam
 
