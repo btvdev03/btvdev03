@@ -25,6 +25,7 @@
 
 ### 📂 Dự án & Nghiên cứu
 
+- [**git-roast**](https://github.com/btvdev03/git-roast): Công cụ CLI phân tích thói quen code qua Git commit, bóc phốt hài hước và xuất thẻ bài Dev Roast phong cách Spotify Wrapped.
 - [**InstantTranslate**](https://github.com/btvdev03/InstantTranslate): Tiện ích mở rộng trình duyệt (Chrome Extension MV3) hỗ trợ tra cứu và dịch thuật ngữ đa ngữ cảnh tức thì.
 - [**IdeaClaimer**](https://github.com/btvdev03/IdeaClaimer): Hệ thống tự động thu thập và tổng hợp ý tưởng nghiên cứu / công nghệ từ arXiv, Hacker News và GitHub.
 
