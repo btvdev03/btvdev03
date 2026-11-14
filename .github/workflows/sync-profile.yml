@@ -1,0 +1,46 @@
+name: Auto-Sync GitHub Profile README
+
+on:
+  schedule:
+    # Run daily at 01:00 UTC (08:00 GMT+7)
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+  repository_dispatch:
+    types: [profile-updated]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-profile-readme
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Sync README from profile-data.js & GitHub API
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FORCE_REMOTE_PROFILE_DATA: '1'
+        run: node scripts/sync-readme.mjs
+
+      - name: Commit and push updated README
+        run: |
+          if git diff --quiet README.md; then
+            echo "No changes to README.md"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore(sync): auto-sync GitHub profile README"
+          git push
